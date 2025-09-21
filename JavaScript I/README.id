@@ -1,1 +1,44 @@
+### **O que é Linguagem de programação**
 
+Conjunto de código que passa uma extrusão para o computador, para resolver um/vários problema (s).
+
+Podendo ser de **alto nível** - quando a LP está mais próxima da linguagem natural - e **baixo nível** - quando a LP está mais próxima da linguagem de máquina. 
+
+Também pode ser linguagem **compilada -** quando a maquina traduz todo o código-fonte e cria um arquivo executável - ou **interpretada** - quando a maquina traduz e interpreta linha por linha do código.
+
+### **O que é JavaScript**
+
+É uma linguagem feita para ser executada pelos navegadores ( hoje também pode ser executada fora dos navegadores), é de alto nível e interpretada. Com o HTML e CSS forma as principais tecnologias da web
+
+### **Tipos de dados**
+
+No JavaScript os dados podem ser representados em diferentes formas:
+
+**Dados primitivos**
+
+- **number** e **bigint** - é o tipo numérico, já o bigint é usando para inteiros grandes.
+- **string** - tudo que tenho caracteres, na sua declaração é usadas as aspas “”.
+- **boolean** - é o tipo lógico ou o dado é true ou false.
+- **null** e **undefined** - são dados que não está definido ou inexistentes.
+
+**Objetos e funções**
+
+### **Variáveis**
+
+É um valor que pode ser mudado, é guardado em memória, e pode ser acessado usando o nome da variável. No JavaScript existe três tipos de variáveis:
+
+- **var** - pode mudar o valor do seu dado, pode ser acessada globalmente.
+- **let** - pode mudar de valor, mas só pode se acessada no seu bloco que foi criada.
+- **const** - não pode mudar de valor, é definido na sua criação
+
+### Operadores e expressões
+
+**Operadores** - símbolos especiais usados para executar operações em variáveis e valores, como realizar cálculos, comparações ou atribuir valores:
+
+- **Aritiméticos** +, -, *, / e %.
+- **Agrupamento** ( ).
+- **Atribuição** =, +=, -=, *=, /= e %=.
+- **Encadeamento.**
+- **Incrementar ++** e **Decrementar - -.**
+
+**Expressões** - símbolos especiais usados para executar operações em variáveis e valores, como realizar cálculos, comparações ou atribuir valores.
