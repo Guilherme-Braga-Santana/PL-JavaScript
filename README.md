@@ -13,7 +13,9 @@ JavaScript I
 🚀 Objective
 
 This is not a final project, but rather a study repository for:
+
 Practicing JavaScript.
+
 Developing small, practical projects
 
 ---
@@ -21,7 +23,9 @@ Developing small, practical projects
 🔧 Technologies
 
 ** JavaScript**
+
 IDE: VS Code
+
 Git & GitHub for versioning
 
 ---
@@ -29,4 +33,5 @@ Git & GitHub for versioning
 🏫 couser and institution
 
 Estácio (https://estacio.br/).
+
 OneBitCode (https://comunidade.onebitcode.com).
