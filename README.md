@@ -5,6 +5,7 @@
 
 📂 Structure
 - JavaScript I
+- Projects 
 
 ---
 
