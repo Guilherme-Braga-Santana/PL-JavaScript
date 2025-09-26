@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* ### Primary */
+/* (lighter) */
+--Green-200: hsl(148, 38%, 91%);
+
+/* (medium) */
+--Green-600: hsl(169, 82%, 27%);
+
+--Red:hsl(0, 66%, 54%);
+
+    /* ### Neutral */
+
+--White: hsl(0, 0%, 100%);
+
+/*  (medium) */
+--Grey-500:hsl(186, 15%, 59%);
+
+/*  (darker) */
+--Grey-900: hsl(187, 24%, 22%);
+
+/* Source */
+--main-source: "Karla", sans-serif;
+--bold-font: 700;
+--normal-font: 400;
+}
+
+body{
+    background-color: var(--Green-200);
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    background-color: var(--White);
+}
+
+button{
+    background-color: var(--Green-600);
+}
+

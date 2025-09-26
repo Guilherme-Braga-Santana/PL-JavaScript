@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="/assets/Style/Root.css">
+  <!-- Root CSS file -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- Mobile CSS file -->
+  <link rel="stylesheet" href="assets/Style/MediaQuery/Mobile.css" media="(max-width: 800px )">
+
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <Form>
+    <section class="formStyle">
+    <h1 class="contact">Contact Us</h1>
+    <Section class="userName">
+      <div class="userNameLeft">
+        <Label for="firstName">First Name *</Label>
+        <input type="text" name="firstName" id="firstName" required>
+      </div>
+      <div class="userNameRight">
+        <Label for="lastName">Last Name *</Label>
+        <input type="text" name="lastName" id="lastName" required>
+      </div>
+      <div class="email">
+      <Label>Email Address *</Label>
+      <input type="email" name="email" id="email" required>
+      </div>
+      </Section>
+      <section class="queryType">
+        <p>Query Type *</p>
+        <label class="option">
+        <input type="radio" name="option1" id="option1"> <span>General Enquiry</span>
+        </label>
+        <label class="option">
+        <input type="radio" name="option2" id="option2"> <p> Support Request</p>
+        </label>
+      </Section>
+      <p>Message *</p>
+      <Textarea></Textarea>
+      <section class="checkboxSection">
+      <input type="checkbox" name="checkbox" id="checkbox">
+        <span>
+          <label for="checkbox">I consent to being contacted by the team *</label>
+        </span>
+      </section>
+      <button>Submit</button>
+      </section>
+  </Form>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
